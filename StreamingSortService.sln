@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingSortWCFService", "StreamingSortWCFService\StreamingSortWCFService.csproj", "{4479267F-0C54-4650-BF83-852AB560C352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageProvider", "FileStorageProvider\StorageProvider.csproj", "{FBB86247-1428-4D84-9F8A-9AB0F9325C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageProviderTests", "StorageProviderTests\StorageProviderTests.csproj", "{1EE56785-5959-4E75-B976-B4D990FE898C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceUtils", "ServiceUtils\ServiceUtils.csproj", "{C15C222E-5C63-44E6-B933-B22E79C973DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingSortWCFServiceClient", "StreamingSortWCFServiceClient\StreamingSortWCFServiceClient.csproj", "{D41B65FA-E771-4B23-9DF4-292BE18BA70E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamingSortWCFServiceHost", "StreamingSortWCFServiceHost\StreamingSortWCFServiceHost.csproj", "{A28225AD-1EA7-4D08-B20E-3AB0B763383F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4479267F-0C54-4650-BF83-852AB560C352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4479267F-0C54-4650-BF83-852AB560C352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4479267F-0C54-4650-BF83-852AB560C352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4479267F-0C54-4650-BF83-852AB560C352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB86247-1428-4D84-9F8A-9AB0F9325C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB86247-1428-4D84-9F8A-9AB0F9325C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB86247-1428-4D84-9F8A-9AB0F9325C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB86247-1428-4D84-9F8A-9AB0F9325C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE56785-5959-4E75-B976-B4D990FE898C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE56785-5959-4E75-B976-B4D990FE898C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE56785-5959-4E75-B976-B4D990FE898C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE56785-5959-4E75-B976-B4D990FE898C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15C222E-5C63-44E6-B933-B22E79C973DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15C222E-5C63-44E6-B933-B22E79C973DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15C222E-5C63-44E6-B933-B22E79C973DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15C222E-5C63-44E6-B933-B22E79C973DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D41B65FA-E771-4B23-9DF4-292BE18BA70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41B65FA-E771-4B23-9DF4-292BE18BA70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41B65FA-E771-4B23-9DF4-292BE18BA70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D41B65FA-E771-4B23-9DF4-292BE18BA70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28225AD-1EA7-4D08-B20E-3AB0B763383F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28225AD-1EA7-4D08-B20E-3AB0B763383F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28225AD-1EA7-4D08-B20E-3AB0B763383F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28225AD-1EA7-4D08-B20E-3AB0B763383F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
